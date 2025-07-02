@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<routes>
+
+    <!-- Tipos de vehículos -->
+    <vType id="type0" accel="1.5" decel="4.5" sigma="0.5" length="4.5" minGap="2.5" maxSpeed="12" color="1,0,0"/>
+    <vType id="type1" accel="2.0" decel="4.0" sigma="0.6" length="4.0" minGap="2.0" maxSpeed="13" color="0,1,0"/>
+    <vType id="type2" accel="2.5" decel="3.5" sigma="0.7" length="3.5" minGap="1.5" maxSpeed="14" color="0,0,1"/>
+    <vType id="type3" accel="3.0" decel="3.0" sigma="0.8" length="3.0" minGap="1.0" maxSpeed="15" color="1,1,0"/>
+    <vType id="type4" accel="1.8" decel="4.2" sigma="0.4" length="5.0" minGap="2.0" maxSpeed="11" color="1,0,1"/>
+
+    <!-- Rutas -->
+    <route id="routeA" edges="45427974 45427977#1 45427977#2 45427977#3 45427977#4 45427977#5 347760556 347760557#1 347760557#2 347760557#3-AddedOnRampEdge 347760557#3 397300508 527758366#3 527758366#4 527758366#5 548305060#0 548305060#1 548305060#2 1095244323#0 1095244323#1 47198277#0 47198277#1 815723564#0"/>
+    
+    <route id="routeB" edges="42201260#1 42201260#2 42201260#3 42201260#4 42201260#5 42201260#6 42201260#7 42201260#8-AddedOnRampEdge 42201260#8 42201260#9 553416522#1 553416522#1-AddedOffRampEdge 397300510 338566779#0-AddedOnRampEdge 338566779#0 338566779#1 527758366#7 527758366#8 527758366#1 47198284#0 47198284#1 47198284#2 47198284#3 47198284#4 347760558 347760559#1 347760559#2 347760559#3 347760559#4 347760559#5 347760559#6 347760559#7 347760559#8 347760559#9"/>
+
+    <!-- Vehículos intercalados -->
+    <vehicle id="0"  type="type0" route="routeA" depart="0"/>
+    <vehicle id="1"  type="type1" route="routeB" depart="0"/>
+    <vehicle id="2"  type="type0" route="routeA" depart="30"/>
+    <vehicle id="3"  type="type3" route="routeB" depart="30"/>
+    <vehicle id="4"  type="type4" route="routeA" depart="40"/>
+    <vehicle id="5"  type="type0" route="routeB" depart="40"/>
+    <vehicle id="6"  type="type1" route="routeA" depart="60"/>
+    <vehicle id="7"  type="type2" route="routeB" depart="60"/>
+    <vehicle id="8"  type="type3" route="routeA" depart="80"/>
+    <vehicle id="9"  type="type4" route="routeB" depart="80"/>
+    <vehicle id="10" type="type0" route="routeA" depart="100"/>
+    <vehicle id="11" type="type1" route="routeB" depart="100"/>
+    <vehicle id="12" type="type2" route="routeA" depart="120"/>
+    <vehicle id="13" type="type3" route="routeB" depart="120"/>
+    <vehicle id="14" type="type4" route="routeA" depart="140"/>
+    <vehicle id="15" type="type0" route="routeB" depart="140"/>
+    <vehicle id="16" type="type1" route="routeA" depart="160"/>
+    <vehicle id="17" type="type2" route="routeB" depart="160"/>
+    <vehicle id="18" type="type3" route="routeA" depart="180"/>
+    <vehicle id="19" type="type4" route="routeB" depart="180"/>
+    <vehicle id="20" type="type0" route="routeA" depart="200"/>
+    <vehicle id="21" type="type1" route="routeB" depart="200"/>
+    <vehicle id="22" type="type2" route="routeA" depart="220"/>
+    <vehicle id="23" type="type3" route="routeB" depart="220"/>
+    <vehicle id="24" type="type4" route="routeA" depart="240"/>
+    <vehicle id="25" type="type0" route="routeB" depart="240"/>
+    <vehicle id="26" type="type1" route="routeA" depart="260"/>
+    <vehicle id="27" type="type2" route="routeB" depart="260"/>
+    <vehicle id="28" type="type3" route="routeA" depart="280"/>
+    <vehicle id="29" type="type4" route="routeB" depart="280"/>
+    <vehicle id="30" type="type0" route="routeA" depart="300"/>
+    <vehicle id="31" type="type1" route="routeB" depart="300"/>
+    <vehicle id="32" type="type2" route="routeA" depart="320"/>
+    <vehicle id="33" type="type3" route="routeB" depart="320"/>
+    <vehicle id="34" type="type4" route="routeA" depart="340"/>
+    <vehicle id="35" type="type0" route="routeB" depart="340"/>
+    <vehicle id="36" type="type1" route="routeA" depart="360"/>
+    <vehicle id="37" type="type2" route="routeB" depart="360"/>
+    <vehicle id="38" type="type3" route="routeA" depart="380"/>
+    <vehicle id="39" type="type4" route="routeB" depart="380"/>
+    <vehicle id="40" type="type0" route="routeA" depart="400"/>
+    <vehicle id="41" type="type1" route="routeB" depart="400"/>
+    <vehicle id="42" type="type2" route="routeA" depart="420"/>
+    <vehicle id="43" type="type3" route="routeB" depart="420"/>
+    <vehicle id="44" type="type4" route="routeA" depart="440"/>
+    <vehicle id="45" type="type0" route="routeB" depart="440"/>
+    <vehicle id="46" type="type1" route="routeA" depart="460"/>
+    <vehicle id="47" type="type2" route="routeB" depart="460"/>
+    <vehicle id="48" type="type3" route="routeA" depart="480"/>
+    <vehicle id="49" type="type4" route="routeB" depart="480"/>
+    <vehicle id="50" type="type0" route="routeA" depart="500"/>
+    <vehicle id="51" type="type1" route="routeB" depart="500"/>
+    <vehicle id="52" type="type2" route="routeA" depart="520"/>
+    <vehicle id="53" type="type3" route="routeB" depart="520"/>
+    <vehicle id="54" type="type4" route="routeA" depart="540"/>
+    <vehicle id="55" type="type0" route="routeB" depart="540"/>
+    <vehicle id="56" type="type1" route="routeA" depart="560"/>
+    <vehicle id="57" type="type2" route="routeB" depart="560"/>
+    <vehicle id="58" type="type3" route="routeA" depart="580"/>
+    <vehicle id="59" type="type4" route="routeB" depart="580"/>
+
+</routes>
+
